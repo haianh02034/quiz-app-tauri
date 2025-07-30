@@ -1,0 +1,611 @@
+{
+  "title": "Bài kiểm tra Công nghệ thông tin",
+  "questions": [
+    {
+      "id": "q1",
+      "text": "Máy tính bao gồm những thành phần chính nào?",
+      "options": [
+        { "id": "a", "text": "Bộ xử lý trung tâm (CPU – Central Processing Unit)" },
+        { "id": "b", "text": "Bộ nhớ (RAM, ROM)" },
+        { "id": "c", "text": "Máy in" },
+        { "id": "d", "text": "Thiết bị lưu trữ (HDD, SSD)" }
+      ],
+      "correctOptionIds": ["a", "b", "d"]
+    },
+    {
+      "id": "q2",
+      "text": "RAM là gì?",
+      "options": [
+        { "id": "a", "text": "Random Access Memory (Bộ nhớ truy cập ngẫu nhiên)" },
+        { "id": "b", "text": "Read Anytime Memory" },
+        { "id": "c", "text": "Loại ổ cứng" },
+        { "id": "d", "text": "Dùng để lưu dữ liệu tạm thời khi máy tính hoạt động" }
+      ],
+      "correctOptionIds": ["a", "d"]
+    },
+    {
+      "id": "q3",
+      "text": "Hệ điều hành phổ biến là:",
+      "options": [
+        { "id": "a", "text": "Windows" },
+        { "id": "b", "text": "macOS" },
+        { "id": "c", "text": "Linux" },
+        { "id": "d", "text": "MS Word" }
+      ],
+      "correctOptionIds": ["a", "b", "c"]
+    },
+    {
+      "id": "q4",
+      "text": "Trong tin học, “bit” là gì?",
+      "options": [
+        { "id": "a", "text": "Đơn vị nhỏ nhất của dữ liệu" },
+        { "id": "b", "text": "Bộ vi xử lý" },
+        { "id": "c", "text": "Có giá trị 0 hoặc 1" },
+        { "id": "d", "text": "Đơn vị đo tốc độ" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q5",
+      "text": "Những thao tác cơ bản khi sử dụng Internet:",
+      "options": [
+        { "id": "a", "text": "Tìm kiếm thông tin" },
+        { "id": "b", "text": "Gửi và nhận email" },
+        { "id": "c", "text": "Xem video" },
+        { "id": "d", "text": "Viết chương trình hệ điều hành" }
+      ],
+      "correctOptionIds": ["a", "b", "c"]
+    },
+    {
+      "id": "q6",
+      "text": "Thiết bị nào dưới đây là thiết bị vào (input)?",
+      "options": [
+        { "id": "a", "text": "Chuột" },
+        { "id": "b", "text": "Bàn phím" },
+        { "id": "c", "text": "Webcam" },
+        { "id": "d", "text": "Màn hình" }
+      ],
+      "correctOptionIds": ["a", "b", "c"]
+    },
+    {
+      "id": "q7",
+      "text": "Trong Microsoft Word, bạn có thể:",
+      "options": [
+        { "id": "a", "text": "Gõ văn bản" },
+        { "id": "b", "text": "Chèn hình ảnh" },
+        { "id": "c", "text": "Biên dịch chương trình" },
+        { "id": "d", "text": "Tạo bảng biểu" }
+      ],
+      "correctOptionIds": ["a", "b", "d"]
+    },
+    {
+      "id": "q8",
+      "text": "Khi sử dụng máy tính an toàn, bạn nên:",
+      "options": [
+        { "id": "a", "text": "Cài phần mềm diệt virus" },
+        { "id": "b", "text": "Không nhấp vào liên kết lạ" },
+        { "id": "c", "text": "Mở tất cả email nhận được" },
+        { "id": "d", "text": "Sao lưu dữ liệu định kỳ" }
+      ],
+      "correctOptionIds": ["a", "b", "d"]
+    },
+    {
+      "id": "q9",
+      "text": "Email là gì?",
+      "options": [
+        { "id": "a", "text": "Thư điện tử" },
+        { "id": "b", "text": "Máy chủ ảo" },
+        { "id": "c", "text": "Dùng để gửi và nhận thông tin qua Internet" },
+        { "id": "d", "text": "Tên phần mềm viết văn bản" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q10",
+      "text": "Trình duyệt web là gì?",
+      "options": [
+        { "id": "a", "text": "Phần mềm để truy cập trang web" },
+        { "id": "b", "text": "Hệ điều hành" },
+        { "id": "c", "text": "Chrome, Firefox là trình duyệt web phổ biến" },
+        { "id": "d", "text": "Công cụ lập trình" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q11",
+      "text": "Trong Microsoft Word, bạn có thể thực hiện thao tác nào sau đây?",
+      "options": [
+        { "id": "a", "text": "Căn chỉnh lề văn bản" },
+        { "id": "b", "text": "Thay đổi font chữ và cỡ chữ" },
+        { "id": "c", "text": "Chèn hình ảnh, biểu đồ" },
+        { "id": "d", "text": "Viết mã lập trình Python" }
+      ],
+      "correctOptionIds": ["a", "b", "c"]
+    },
+    {
+      "id": "q12",
+      "text": "Trong Microsoft Excel, chức năng chính của hàm SUM là gì?",
+      "options": [
+        { "id": "a", "text": "Tính tổng các giá trị trong một phạm vi ô" },
+        { "id": "b", "text": "Tìm giá trị lớn nhất" },
+        { "id": "c", "text": "Dễ sử dụng để tính toán nhanh trong bảng dữ liệu" },
+        { "id": "d", "text": "Định dạng chữ in nghiêng" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q13",
+      "text": "Internet là gì?",
+      "options": [
+        { "id": "a", "text": "Mạng máy tính toàn cầu kết nối các thiết bị với nhau" },
+        { "id": "b", "text": "Cho phép truy cập thông tin, truyền thông qua email, web, mạng xã hội" },
+        { "id": "c", "text": "Một phần mềm cụ thể" },
+        { "id": "d", "text": "Hệ điều hành máy tính" }
+      ],
+      "correctOptionIds": ["a", "b"]
+    },
+    {
+      "id": "q14",
+      "text": "Khi muốn lưu văn bản Word dưới dạng không chỉnh sửa được, bạn nên chọn định dạng nào?",
+      "options": [
+        { "id": "a", "text": "PDF (.pdf)" },
+        { "id": "b", "text": "DOCX (.docx)" },
+        { "id": "c", "text": "TXT (.txt)" },
+        { "id": "d", "text": "EXE (.exe)" }
+      ],
+      "correctOptionIds": ["a"]
+    },
+    {
+      "id": "q15",
+      "text": "Thiết bị nào được xem là thiết bị đầu ra (output)?",
+      "options": [
+        { "id": "a", "text": "Chuột" },
+        { "id": "b", "text": "Màn hình" },
+        { "id": "c", "text": "Máy in" },
+        { "id": "d", "text": "Webcam" }
+      ],
+      "correctOptionIds": ["b", "c"]
+    },
+    {
+      "id": "q16",
+      "text": "Để gửi tệp tin qua email, bạn cần thực hiện thao tác nào sau đây?",
+      "options": [
+        { "id": "a", "text": "Nhấn “Đính kèm tệp” (Attach file)" },
+        { "id": "b", "text": "Chọn tệp từ máy tính" },
+        { "id": "c", "text": "Chèn hình ảnh vào bài viết" },
+        { "id": "d", "text": "Gửi qua Bluetooth" }
+      ],
+      "correctOptionIds": ["a", "b"]
+    },
+    {
+      "id": "q17",
+      "text": "Đâu là các trình duyệt web thông dụng hiện nay?",
+      "options": [
+        { "id": "a", "text": "Google Chrome" },
+        { "id": "b", "text": "Mozilla Firefox" },
+        { "id": "c", "text": "Microsoft Edge" },
+        { "id": "d", "text": "Microsoft Word" }
+      ],
+      "correctOptionIds": ["a", "b", "c"]
+    },
+    {
+      "id": "q18",
+      "text": "Khi thấy cảnh báo “Máy tính có nguy cơ bị nhiễm virus”, bạn nên làm gì?",
+      "options": [
+        { "id": "a", "text": "Chạy phần mềm diệt virus" },
+        { "id": "b", "text": "Ngắt kết nối Internet tạm thời" },
+        { "id": "c", "text": "Tải thêm file lạ về để kiểm tra" },
+        { "id": "d", "text": "Không mở các file đính kèm không rõ nguồn gốc" }
+      ],
+      "correctOptionIds": ["a", "b", "d"]
+    },
+    {
+      "id": "q19",
+      "text": "Hệ điều hành di động nào sau đây phổ biến?",
+      "options": [
+        { "id": "a", "text": "Android" },
+        { "id": "b", "text": "iOS" },
+        { "id": "c", "text": "Windows XP" },
+        { "id": "d", "text": "Linux Mint" }
+      ],
+      "correctOptionIds": ["a", "b"]
+    },
+    {
+      "id": "q20",
+      "text": "Trong PowerPoint, hiệu ứng chuyển slide gọi là gì?",
+      "options": [
+        { "id": "a", "text": "Transition" },
+        { "id": "b", "text": "Animation" },
+        { "id": "c", "text": "Slide Style" },
+        { "id": "d", "text": "Template" }
+      ],
+      "correctOptionIds": ["a"]
+    },
+    {
+      "id": "q21",
+      "text": "Lợi ích chính của việc sử dụng Google Drive là gì?",
+      "options": [
+        { "id": "a", "text": "Lưu trữ tài liệu trực tuyến" },
+        { "id": "b", "text": "Truy cập tài liệu từ mọi thiết bị có Internet" },
+        { "id": "c", "text": "Chia sẻ file với người khác dễ dàng" },
+        { "id": "d", "text": "Tăng tốc độ mạng" }
+      ],
+      "correctOptionIds": ["a", "b", "c"]
+    },
+    {
+      "id": "q22",
+      "text": "Khi tạo email, điều nào là đúng?",
+      "options": [
+        { "id": "a", "text": "Địa chỉ email không được trùng với người khác" },
+        { "id": "b", "text": "Có thể dùng dấu cách trong tên email" },
+        { "id": "c", "text": "Cần có ký hiệu @ trong địa chỉ email" },
+        { "id": "d", "text": "Có thể dài tối đa 255 ký tự" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q23",
+      "text": "Shortcut “Ctrl + Z” có chức năng gì?",
+      "options": [
+        { "id": "a", "text": "Hoàn tác thao tác vừa thực hiện (Undo)" },
+        { "id": "b", "text": "Lưu lại tài liệu" },
+        { "id": "c", "text": "Đóng ứng dụng" },
+        { "id": "d", "text": "Khôi phục nội dung đã xóa nhầm" }
+      ],
+      "correctOptionIds": ["a"]
+    },
+    {
+      "id": "q24",
+      "text": "Phần mềm bảng tính nào phổ biến nhất hiện nay?",
+      "options": [
+        { "id": "a", "text": "Microsoft Excel" },
+        { "id": "b", "text": "Google Sheets" },
+        { "id": "c", "text": "Notepad" },
+        { "id": "d", "text": "Paint" }
+      ],
+      "correctOptionIds": ["a", "b"]
+    },
+    {
+      "id": "q25",
+      "text": "Thiết bị lưu trữ nào sau đây là di động (portable)?",
+      "options": [
+        { "id": "a", "text": "USB" },
+        { "id": "b", "text": "Ổ cứng di động (HDD/SSD external)" },
+        { "id": "c", "text": "RAM" },
+        { "id": "d", "text": "Màn hình" }
+      ],
+      "correctOptionIds": ["a", "b"]
+    },
+    {
+      "id": "q26",
+      "text": "Để định dạng in đậm trong Word, bạn dùng phím tắt nào?",
+      "options": [
+        { "id": "a", "text": "Ctrl + B" },
+        { "id": "b", "text": "Ctrl + I" },
+        { "id": "c", "text": "Ctrl + U" },
+        { "id": "d", "text": "Ctrl + D" }
+      ],
+      "correctOptionIds": ["a"]
+    },
+    {
+      "id": "q27",
+      "text": "Ứng dụng “Google Meet” dùng để làm gì?",
+      "options": [
+        { "id": "a", "text": "Họp mặt trực tuyến, học online" },
+        { "id": "b", "text": "Thiết kế đồ họa" },
+        { "id": "c", "text": "Gọi video nhóm từ xa" },
+        { "id": "d", "text": "Quản lý file hệ thống" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q28",
+      "text": "Đâu là việc làm giúp tiết kiệm tài nguyên máy tính?",
+      "options": [
+        { "id": "a", "text": "Đóng các ứng dụng không cần thiết" },
+        { "id": "b", "text": "Xóa file rác thường xuyên" },
+        { "id": "c", "text": "Cài nhiều phần mềm diệt virus cùng lúc" },
+        { "id": "d", "text": "Tăng độ phân giải màn hình" }
+      ],
+      "correctOptionIds": ["a", "b"]
+    },
+    {
+      "id": "q29",
+      "text": "Một văn bản trong Word thường có cấu trúc nào?",
+      "options": [
+        { "id": "a", "text": "Tiêu đề - Nội dung - Kết luận" },
+        { "id": "b", "text": "Header - Footer - Phần mềm" },
+        { "id": "c", "text": "Trang bìa - Mục lục - Nội dung" },
+        { "id": "d", "text": "Input - Output - Code" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q30",
+      "text": "Mục đích của việc dùng mật khẩu mạnh là gì?",
+      "options": [
+        { "id": "a", "text": "Bảo vệ tài khoản khỏi bị xâm nhập trái phép" },
+        { "id": "b", "text": "Tăng tính bảo mật dữ liệu cá nhân" },
+        { "id": "c", "text": "Tăng tốc máy tính" },
+        { "id": "d", "text": "Mã hóa văn bản" }
+      ],
+      "correctOptionIds": ["a", "b"]
+    },
+    {
+      "id": "q31",
+      "text": "API là gì? (Application Programming Interface)",
+      "options": [
+        { "id": "a", "text": "Giao diện lập trình ứng dụng cho phép hệ thống giao tiếp với nhau" },
+        { "id": "b", "text": "Hệ điều hành" },
+        { "id": "c", "text": "Cho phép client và server trao đổi dữ liệu" },
+        { "id": "d", "text": "Phần mềm đồ họa" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q32",
+      "text": "HTML là gì? (HyperText Markup Language)",
+      "options": [
+        { "id": "a", "text": "Ngôn ngữ đánh dấu để xây dựng giao diện web" },
+        { "id": "b", "text": "Không phải ngôn ngữ lập trình" },
+        { "id": "c", "text": "Công cụ thiết kế 3D" },
+        { "id": "d", "text": "Dùng để xử lý dữ liệu backend" }
+      ],
+      "correctOptionIds": ["a", "b"]
+    },
+    {
+      "id": "q33",
+      "text": "HTTPS bảo mật hơn HTTP vì: (HTTPS = HyperText Transfer Protocol Secure)",
+      "options": [
+        { "id": "a", "text": "Dùng mã hóa SSL/TLS" },
+        { "id": "b", "text": "Bảo vệ dữ liệu khi truyền tải" },
+        { "id": "c", "text": "Chỉ chạy trên máy chủ Windows" },
+        { "id": "d", "text": "Dùng riêng cho mobile" }
+      ],
+      "correctOptionIds": ["a", "b"]
+    },
+    {
+      "id": "q34",
+      "text": "Các framework frontend phổ biến:",
+      "options": [
+        { "id": "a", "text": "Django" },
+        { "id": "b", "text": "ReactJS" },
+        { "id": "c", "text": "VueJS" },
+        { "id": "d", "text": "Angular" }
+      ],
+      "correctOptionIds": ["b", "c", "d"]
+    },
+    {
+      "id": "q35",
+      "text": "Git là gì? (Distributed Version Control System)",
+      "options": [
+        { "id": "a", "text": "Hệ thống quản lý phiên bản phân tán" },
+        { "id": "b", "text": "Giúp theo dõi thay đổi mã nguồn" },
+        { "id": "c", "text": "Hỗ trợ làm việc nhóm hiệu quả" },
+        { "id": "d", "text": "Ngôn ngữ lập trình" }
+      ],
+      "correctOptionIds": ["a", "b", "c"]
+    },
+    {
+      "id": "q36",
+      "text": "CSS được dùng để: (Cascading Style Sheets)",
+      "options": [
+        { "id": "a", "text": "Thiết kế giao diện website" },
+        { "id": "b", "text": "Định dạng văn bản, màu sắc, bố cục" },
+        { "id": "c", "text": "Tạo backend API" },
+        { "id": "d", "text": "Kết nối CSDL" }
+      ],
+      "correctOptionIds": ["a", "b"]
+    },
+    {
+      "id": "q37",
+      "text": "SQL là gì? (Structured Query Language)",
+      "options": [
+        { "id": "a", "text": "Ngôn ngữ truy vấn cơ sở dữ liệu" },
+        { "id": "b", "text": "Dùng trong MySQL, PostgreSQL, SQL Server" },
+        { "id": "c", "text": "Giao diện lập trình GUI" },
+        { "id": "d", "text": "Giao thức truyền dữ liệu" }
+      ],
+      "correctOptionIds": ["a", "b"]
+    },
+    {
+      "id": "q38",
+      "text": "Đâu là CSDL quan hệ?",
+      "options": [
+        { "id": "a", "text": "MySQL" },
+        { "id": "b", "text": "PostgreSQL" },
+        { "id": "c", "text": "Oracle" },
+        { "id": "d", "text": "MongoDB" }
+      ],
+      "correctOptionIds": ["a", "b", "c"]
+    },
+    {
+      "id": "q39",
+      "text": "Backend xử lý:",
+      "options": [
+        { "id": "a", "text": "Logic nghiệp vụ" },
+        { "id": "b", "text": "Kết nối cơ sở dữ liệu" },
+        { "id": "c", "text": "Giao diện người dùng" },
+        { "id": "d", "text": "API và authentication" }
+      ],
+      "correctOptionIds": ["a", "b", "d"]
+    },
+    {
+      "id": "q40",
+      "text": "Ngôn ngữ thường dùng cho backend:",
+      "options": [
+        { "id": "a", "text": "Node.js" },
+        { "id": "b", "text": "Python (Django/Flask)" },
+        { "id": "c", "text": "PHP (Laravel)" },
+        { "id": "d", "text": "Java (Spring Boot)" }
+      ],
+      "correctOptionIds": ["a", "b", "c", "d"]
+    },
+    {
+      "id": "q41",
+      "text": "CRUD trong lập trình là viết tắt của những thao tác nào? (CRUD = Create, Read, Update, Delete)",
+      "options": [
+        { "id": "a", "text": "Tạo mới dữ liệu" },
+        { "id": "b", "text": "Đọc dữ liệu" },
+        { "id": "c", "text": "Cập nhật dữ liệu" },
+        { "id": "d", "text": "Xoá dữ liệu" }
+      ],
+      "correctOptionIds": ["a", "b", "c", "d"]
+    },
+    {
+      "id": "q42",
+      "text": "CI/CD là gì? (CI = Continuous Integration; CD = Continuous Deployment)",
+      "options": [
+        { "id": "a", "text": "Tự động kiểm thử và triển khai ứng dụng" },
+        { "id": "b", "text": "Hệ thống chống virus" },
+        { "id": "c", "text": "Công cụ DevOps phổ biến" },
+        { "id": "d", "text": "Chạy script build thủ công" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q43",
+      "text": "JWT được sử dụng để làm gì? (JWT = JSON Web Token)",
+      "options": [
+        { "id": "a", "text": "Xác thực người dùng (authentication)" },
+        { "id": "b", "text": "Nén hình ảnh" },
+        { "id": "c", "text": "Truyền dữ liệu an toàn giữa client/server" },
+        { "id": "d", "text": "Mã hoá SQL query" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q44",
+      "text": "Các công cụ CI/CD phổ biến là:",
+      "options": [
+        { "id": "a", "text": "Jenkins" },
+        { "id": "b", "text": "GitHub Actions" },
+        { "id": "c", "text": "Photoshop" },
+        { "id": "d", "text": "GitLab CI" }
+      ],
+      "correctOptionIds": ["a", "b", "d"]
+    },
+    {
+      "id": "q45",
+      "text": "Container là gì trong DevOps?",
+      "options": [
+        { "id": "a", "text": "Môi trường đóng gói ứng dụng cùng dependencies" },
+        { "id": "b", "text": "Trình giả lập máy ảo" },
+        { "id": "c", "text": "Dễ dàng triển khai mọi nơi" },
+        { "id": "d", "text": "Web browser plugin" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q46",
+      "text": "Docker là công cụ dùng để:",
+      "options": [
+        { "id": "a", "text": "Quản lý và chạy container" },
+        { "id": "b", "text": "Thiết kế giao diện" },
+        { "id": "c", "text": "Tạo môi trường ứng dụng nhẹ và di động" },
+        { "id": "d", "text": "Tối ưu HTML" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q47",
+      "text": "Đặc điểm của RESTful API là:",
+      "options": [
+        { "id": "a", "text": "Dựa trên HTTP" },
+        { "id": "b", "text": "Stateless – không lưu trạng thái client" },
+        { "id": "c", "text": "Chỉ dùng với C#" },
+        { "id": "d", "text": "Sử dụng GET, POST, PUT, DELETE" }
+      ],
+      "correctOptionIds": ["a", "b", "d"]
+    },
+    {
+      "id": "q48",
+      "text": "UX trong thiết kế ứng dụng nghĩa là gì? (UX = User Experience)",
+      "options": [
+        { "id": "a", "text": "Trải nghiệm người dùng" },
+        { "id": "b", "text": "Giao diện đồ hoạ" },
+        { "id": "c", "text": "Ngôn ngữ lập trình" },
+        { "id": "d", "text": "Tập trung vào sự thuận tiện, dễ dùng" }
+      ],
+      "correctOptionIds": ["a", "d"]
+    },
+    {
+      "id": "q49",
+      "text": "CDN có chức năng gì? (CDN = Content Delivery Network)",
+      "options": [
+        { "id": "a", "text": "Phân phối nội dung web từ server gần người dùng nhất" },
+        { "id": "b", "text": "Tăng tốc tải trang" },
+        { "id": "c", "text": "Sao lưu dữ liệu" },
+        { "id": "d", "text": "Giảm tải server gốc" }
+      ],
+      "correctOptionIds": ["a", "b", "d"]
+    },
+    {
+      "id": "q50",
+      "text": "Khi dùng Git, câu lệnh nào tạo một nhánh mới?",
+      "options": [
+        { "id": "a", "text": "git init" },
+        { "id": "b", "text": "git commit" },
+        { "id": "c", "text": "git branch tên_nhánh" },
+        { "id": "d", "text": "git push origin main" }
+      ],
+      "correctOptionIds": ["c"]
+    },
+    {
+      "id": "q51",
+      "text": "IDE phổ biến cho lập trình là:",
+      "options": [
+        { "id": "a", "text": "VS Code" },
+        { "id": "b", "text": "IntelliJ IDEA" },
+        { "id": "c", "text": "PyCharm" },
+        { "id": "d", "text": "WordPad" }
+      ],
+      "correctOptionIds": ["a", "b", "c"]
+    },
+    {
+      "id": "q52",
+      "text": "Các loại kiểm thử phần mềm:",
+      "options": [
+        { "id": "a", "text": "Unit Test" },
+        { "id": "b", "text": "Integration Test" },
+        { "id": "c", "text": "System Test" },
+        { "id": "d", "text": "Acceptance Test" }
+      ],
+      "correctOptionIds": ["a", "b", "c", "d"]
+    },
+    {
+      "id": "q53",
+      "text": "XSS là gì trong bảo mật? (Cross-Site Scripting (XSS))",
+      "options": [
+        { "id": "a", "text": "Chèn mã JavaScript độc hại vào trang web" },
+        { "id": "b", "text": "Gửi spam qua email" },
+        { "id": "c", "text": "Đánh cắp cookie người dùng" },
+        { "id": "d", "text": "Chặn request HTTP" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q54",
+      "text": "SQL Injection là gì?",
+      "options": [
+        { "id": "a", "text": "Chèn lệnh SQL trái phép thông qua input" },
+        { "id": "b", "text": "Thay đổi mật khẩu người dùng" },
+        { "id": "c", "text": "Đọc hoặc xoá dữ liệu không được phép" },
+        { "id": "d", "text": "Tạo trigger trong cơ sở dữ liệu" }
+      ],
+      "correctOptionIds": ["a", "c"]
+    },
+    {
+      "id": "q55",
+      "text": "Authentication khác gì Authorization?",
+      "options": [
+        { "id": "a", "text": "Authentication xác minh danh tính" },
+        { "id": "b", "text": "Authorization kiểm tra quyền truy cập" },
+        { "id": "c", "text": "Cả hai giống nhau" },
+        { "id": "d", "text": "Authentication trước, Authorization sau" }
+      ],
+      "correctOptionIds": ["a", "b", "d"]
+    }
+    
+  ]
+}

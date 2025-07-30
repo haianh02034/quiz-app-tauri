@@ -1,0 +1,288 @@
+.App {
+  font-family: Arial, sans-serif;
+  min-width: 1200px;
+  width: 90%;
+  height: auto; /* Set a maximum height relative to viewport height */
+  overflow-y: auto; /* Add vertical scroll if content overflows */
+  margin: 20px auto; /* Center the content */
+  padding: 40px; /* Increased padding */
+  background-color: #f0f2f5; /* Light grey background for a softer look */
+  border-radius: 8px;
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.App::-webkit-scrollbar {
+  display: none;
+}
+
+h1 {
+  color: #333;
+}
+
+.timer {
+  text-align: right;
+  font-size: 1.2em;
+  margin-bottom: 20px;
+  color: #d9534f;
+  font-weight: bold;
+}
+
+.question-card {
+  background-color: #f9f9f9;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 15px;
+  margin-bottom: 40px; /* Increased margin-bottom */
+  height: 500px;
+}
+
+.question-card h3 {
+  margin-top: 0;
+  color: #555;
+  text-align: center;
+  margin-bottom: 30px; /* Increased margin-bottom */
+  font-size: 1.5em; /* Increased font-size */
+}
+
+.multiple-choice-hint {
+  text-align: center;
+  font-size: 0.9em;
+  color: #666;
+  margin-top: -10px;
+  margin-bottom: 15px;
+}
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px; /* Increased gap */
+  margin-top: 45px;
+  width: 100%;       /* hoặc 100% nếu bên trong vùng cha cố định */
+  height: 300px;
+  
+}
+
+.option-block {
+  background-color: #333; /* Dark background for options */
+  color: white;
+  padding: 40px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  overflow: hidden; /* For the number badge */
+}
+
+.option-block:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.option-block.selected {
+  border: 3px solid #007bff; /* Highlight selected option */
+  box-shadow: 0 0 15px rgba(0, 123, 255, 0.6);
+}
+
+.option-block.selected .checkmark {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: rgba(255, 255, 255, 0.3);
+  color: white;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.option-number {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8em;
+}
+
+.option-text {
+  margin-top: 10px;
+}
+
+/* Specific colors for options based on the image */
+.options .option-block:nth-child(1) {
+  background-color: #8B9C00; /* Olive green */
+}
+
+.options .option-block:nth-child(2) {
+  background-color: #8A2BE2; /* Purple */
+}
+
+.options .option-block:nth-child(3) {
+  background-color: #FF4500; /* OrangeRed */
+}
+
+.options .option-block:nth-child(4) {
+  background-color: #20B2AA; /* LightSeaGreen */
+}
+
+button {
+  display: block;
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: flex-end; 
+  margin-top: 20px;
+}
+
+.navigation-buttons button {
+  width: 20%; /* Adjust as needed for spacing */
+}
+
+.question-analysis {
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-bottom: 20px; /* Increased margin for better spacing */
+  border-radius: 5px;
+}
+
+.question-analysis.correct {
+  background-color: #e6ffe6;
+  border-color: #4CAF50;
+}
+
+.question-analysis.incorrect {
+  background-color: #ffe6e6;
+  border-color: #f44336;
+}
+
+.results-analysis-container {
+  max-height: 90vh; /* Adjust as needed */
+  overflow-y: auto;
+  padding-right: 20px; /* Add some padding for visual appeal */
+}
+
+.question-analysis h3 {
+  margin-top: 0;
+  display: flex;
+  align-items: center;
+}
+
+.question-analysis h3 span {
+  margin-left: 10px;
+}
+
+.question-analysis ul {
+  list-style: none;
+  padding: 0;
+}
+
+.question-analysis li {
+  margin-bottom: 5px;
+}
+
+.correct-option {
+  font-weight: bold;
+  color: #4CAF50;
+}
+
+.wrong-submitted-option {
+  font-weight: bold;
+  color: #f44336;
+  text-decoration: line-through;
+}
+
+.correct-and-submitted {
+  font-weight: bold;
+  color: #4CAF50; /* Green */
+}
+
+.correct-but-not-submitted {
+  font-weight: bold;
+  color: #17A2B8; /* Info Blue - for correct but not submitted */
+  font-style: italic;
+}
+
+.wrong-and-submitted {
+  font-weight: bold;
+  color: #DC3545; /* Red */
+  text-decoration: line-through;
+}
+
+.code-block {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  border-left: 4px solid #007bff;
+  padding: 10px 15px;
+  margin: 15px 0;
+  border-radius: 5px;
+  overflow-x: auto; /* Enable horizontal scrolling for long code lines */
+}
+
+.code-block code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9em;
+  line-height: 1.4;
+  display: block; /* Ensure code takes full width */
+  white-space: pre-wrap; /* Preserve whitespace and wrap lines */
+}
+
+.start-screen {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Adjust as needed to center content vertically */
+  text-align: center;
+}
+
+.start-screen h1 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+.start-button {
+  padding: 15px 30px;
+  font-size: 1.5em;
+  background-color: #28a745; /* Green color for start button */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.start-button:hover {
+  background-color: #218838;
+  transform: translateY(-3px);
+}
